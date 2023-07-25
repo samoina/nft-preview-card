@@ -5,23 +5,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-
-
-
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | NFT preview card component</title>
-
 </head>
 
 <body>
+  <main class="main">
+    <h1 class="main__heading--sr">NFT preview card component</h1>
 
-  Equilibrium #3429
+    <div class="main__image">
+      <img class="main__image--nft" src="./images/image-equilibrium.jpg" alt="image showing crystal">
+      <div class="main__image--overlay">
+        <img class="main__image--view" src="./images/icon-view.svg" alt="">
+      </div>
+    </div>
 
-  Our Equilibrium collection promotes balance and calm.
+    <h3 class="main__heading">Equilibrium #3429</h3>
+    <p class="main__para--light">
+      Our Equilibrium collection promotes balance and calm.</p>
+    <div class="main__textsection">
+      <p class="main__para main__para--abbrev"> <img src="./images/icon-ethereum.svg" alt="icon">
+        0.041 ETH</p>
 
-  0.041 ETH
-  3 days left
+      <p class="main__para main__para--time"><img src="./images/icon-clock.svg" alt="icon clock">3 days left</p>
+    </div>
+    <hr>
+    <div class="main__avatar">
+      <img src="./images/image-avatar.png" alt="avatar image">
+      <p>Creation of <span class="main__avatar--para">Jules Wyvern</span></p>
+    </div>
+  </main>
 
-  Creation of Jules Wyvern
 
 </body>
 
