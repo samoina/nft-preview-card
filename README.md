@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/samoina/nft-preview-card)
-- Live Site URL: [Netlify Link](https://your-live-site-url.com)
+- Live Site URL: [Netlify Link](https://samoina-nft-preview-card.netlify.app/)
 
 ## My process
 
